@@ -1,0 +1,343 @@
+body{
+  margin:0;
+  padding:0;
+  font-family: 'Public Sans', sans-serif;
+}
+
+/* nav */
+
+nav{
+  display: flex;
+  width: 100%;
+  min-height: 6.4vh;
+  background-color: black;
+  align-items:center;
+  justify-content: center;
+}
+
+.nav--help--el--container{
+  display: flex;
+  width: 1250px;
+  align-items: center;
+  justify-content:space-between;
+  margin:20px;
+}
+
+.help--logo{
+  padding-right: 1em;
+  width: 88px;
+  height:24px;
+  background-image: url('./img/netflixlogo.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.help--logo--container{
+  display: flex;
+  align-items:center;
+  justify-content: center;
+}
+
+.help-center{
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  color: white;
+  border-left: 1px solid white;
+  font-size: 18px;
+  font-weight: 500;
+  padding-left: 1em;
+  margin: 0 0 0 1em;
+}
+
+.help--btn--container{
+  display: flex;
+}
+
+.help-netflixlogo{
+  width: 88px;
+}
+
+.help--join--btn{
+  width: 104px;
+  height: 32px;
+  background-color: black;
+  border: 1px solid white;
+  border-radius: 2px;
+  color: white;
+  padding: 8px;
+  font-size: 12px;
+}
+
+.help-sign-in-btn{
+  width: 100px;
+  height: 32px;
+  background-color: #E50914;
+  border: 1px solid #E50914;
+  border-radius: 2px;
+  padding: 8px;
+  font-size: 12px;
+  margin: 0 0 0 16px;
+  color: white;
+  font-weight: 500;
+}
+  
+/* warning */
+
+.help-warning{
+  display: none; /* change in case it is necessary */
+  visibility:hidden;
+  width: 100%;
+  height: 80px;
+  background-color: #EAEAE6;
+  border-bottom: .1px solid #eaeae613;
+  display: flex;
+  align-items:center;
+  justify-content:flex-start;
+  padding: 0 0 0 270px;
+}
+
+.warning-bell{
+  margin: 0 0 0 0;
+}
+
+.help-bell {
+  width: 24px;
+  height: 24px;
+}
+
+.help-warning-info{
+  margin: 0 0 0 12px;
+}
+
+.help-warning-info-title{
+  color:#4C4948;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  letter-spacing: 2%;
+}
+
+.help-warning-info-description{
+  color:#4C4948;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 2%;
+}
+
+/* main content */
+
+.help--main-container{
+  display: grid;
+  grid-template-columns: 1fr 420px;
+  margin: 20px auto 0;
+  max-width: 1248px;
+  padding: 0 1em;
+}
+
+.help-main-info-child{
+  border-bottom: 1px solid grey;
+  padding: 20px 0 40px 0;
+  line-height: 1.5em;
+  font-size: 16px;
+}
+
+.help--main-container h1 {
+  font-size: 40px;
+}
+
+.help--main-container a {
+  color: #E50914;
+  font-size: 14px;
+}
+
+.help-main-info a {
+  text-decoration: none;
+}
+
+.help-img{
+  width: 100%;
+}
+
+.faq-questionnaire{
+  padding: 2em 0 0 0;
+  font-size: 16px;
+  font-weight: 700px;
+}
+
+/* related articles */
+
+.help-related-articles {
+  padding: 140px 0 0 70px;
+  max-width: 320px;
+}
+
+.faq--related-articles{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  border-top: 6px solid #E50914;
+  border-radius: 5px;
+  padding: 1em;
+  max-width:320px;
+}
+
+.faq--related-articles h3{
+ font-size: 18px;
+ font-weight: 600;
+}
+
+.faq--related-articles a,
+.questionnaire {
+  color: black;
+  font-size: 16px;
+}
+
+.faq--articles{
+  display: flex;
+  align-items: center;
+  justify-content:flex-start;
+  padding:.5em;
+}
+
+.faq-img{
+  width: 20px;
+  height:20px;
+  margin-right: .5em;
+}
+
+/* footer */
+
+footer{
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(10deg, rgba(229, 9, 20, 0) 58%, rgb(229, 9, 20) 128%),#000;
+  color: white;
+  margin: 4em 0 0 0;
+}
+
+.footer-faq--container{
+ width:1250px;
+ margin: 0 20px;
+}
+
+.footer-faq-contact{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0 0 1em 0; 
+}
+
+.footer-faq-contact h3{
+  font-size: 20px;
+}
+
+.footer-faq-contact-btn{
+  width:160px;
+  height: 40px;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: white;
+  color: black;
+  border:none;
+  border-radius: 4px;
+  margin: 0 0 0 2em;
+}
+
+.footer-faq-info{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  border-top: 1px solid #888A88;
+}
+
+.footer-faq-lang{
+  width: 198px;
+  height: 46px;
+  color: #888A88;
+  background-color: black;
+  border: 1px solid #888A88;
+  border-radius: 3px;
+  font-family: "Arial";
+  font-size: 16px;
+  font-weight: 700;
+  margin: 1em 0;
+}
+
+.footer-faq-info a {
+ color: white;
+ font-size: 14px;
+ border-bottom: none;
+ margin:1em 0;
+}
+
+@media(max-width: 599px){
+  .nav--help--el--container{
+    margin:10px 15px;
+  }
+
+  .help--logo--container{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .help-center{
+    border-left: none;
+    font-size: 16px;
+    padding-left: 0;
+    margin: .5em 0 ;
+  }
+
+  .help--logo{
+    width: 18px;
+    height:32px;
+    background-image: url('./img/n-logo.png');
+  }
+
+  .help-main-info-child h1{
+    font-size:32px;
+  }
+}
+
+@media(width:600px){
+  .help--logo{
+    width: 18px;
+    height:32px;
+    background-image: url('../img/n-logo.png');
+  }
+
+  .help-center{
+    padding-left: .5em;
+    margin: 0 0 0 .3em;
+  }
+}
+
+@media only screen and (max-width: 1039px) {
+  .help--main-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0 2em;
+  }
+
+  .help-related-articles {
+    padding: 0 0 0 0;
+    width: 98%;
+    max-width: 98%;
+    }
+
+  .faq--related-articles{
+    display: block;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .help-sign-in-btn{
+    width: 80px;
+  }
+
+  .help-main-info-child h1{
+    font-size:32px;
+  }
+}

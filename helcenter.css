@@ -181,6 +181,7 @@ nav{
   border-radius: 5px;
   padding: 1em;
   max-width:320px;
+  box-sizing: border-box;
 }
 
 .faq--related-articles h3{
